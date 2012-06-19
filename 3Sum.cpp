@@ -1,6 +1,6 @@
 /*
 Author:  Weixian Zhou, ideazwx@gmail.com
-Date:    June 8, 2012
+Date:    June 18, 2012
 Problem: 3 Sum
 Source:  http://www.leetcode.com/onlinejudge
 Notes:
