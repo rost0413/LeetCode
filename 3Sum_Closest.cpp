@@ -63,7 +63,8 @@ public:
                     return sum;
                 }
             }
-            // FIXME
+            // FIXME: global_close == INT_MAX maybe cause unexpected boundary problem.
+            // A better solution can be used.
             if (abs(global_close - target) > abs(local_close - target) || global_close == INT_MAX) {
                 global_close = local_close;
             }
