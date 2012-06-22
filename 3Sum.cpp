@@ -1,8 +1,9 @@
 /*
-Author:  Weixian Zhou, ideazwx@gmail.com
-Date:    June 18, 2012
-Problem: 3 Sum
-Source:  http://www.leetcode.com/onlinejudge
+Author:     Weixian Zhou, ideazwx@gmail.com
+Date:       June 18, 2012
+Problem:    3 Sum
+Difficulty: medium
+Source:     http://www.leetcode.com/onlinejudge
 Notes:
 Given an array S of n integers, are there elements a, b, c in S such that a + b + c = 0?
 Find all unique triplets in the array which gives the sum of zero.

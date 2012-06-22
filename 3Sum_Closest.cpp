@@ -1,8 +1,9 @@
 /*
-Author:  Weixian Zhou, ideazwx@gmail.com
-Date:    June 19, 2012
-Problem: 3 Sum Closest
-Source:  http://www.leetcode.com/onlinejudge
+Author:     Weixian Zhou, ideazwx@gmail.com
+Date:       June 19, 2012
+Problem:    3 Sum Closest
+Difficulty: medium
+Source:     http://www.leetcode.com/onlinejudge
 Notes:
 Given an array S of n integers, find three integers in S such that the sum is closest
 to a given number, target. Return the sum of the three integers. You may assume that
