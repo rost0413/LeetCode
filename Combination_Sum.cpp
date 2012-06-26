@@ -31,6 +31,8 @@ It's variant of classic knapsack problem. The initialization of sum matrix is fo
 
 path: 1 means from top, 2 means from left, 3 means from both top and left, -1
 means path not exists;
+
+Is there a better ways to construct the path?
 */
 #include <vector>
 #include <set>
