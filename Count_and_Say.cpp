@@ -1,6 +1,6 @@
 /*
 Author:     Weixian Zhou, ideazwx@gmail.com
-Date:       June 26, 2012
+Date:       June 27, 2012
 Problem:    Count and Say
 Difficulty:
 Source:     http://www.leetcode.com/onlinejudge
@@ -16,16 +16,7 @@ Given an integer n, generate the nth sequence.
 Note: The sequence of integers will be represented as a string.
 
 Solution:
-1
-11
-21
-1211
-111221
-312211
-13112221
-1113213211
-31131211131221
-13211311123113112211
+Easy simulation.
 */
 #include <vector>
 #include <set>
@@ -34,14 +25,31 @@ Solution:
 #include <iostream>
 #include <cmath>
 #include <cstring>
+#include <sstream>
 using namespace std;
 
 class Solution {
 public:
-    int maxArea(vector<int> &height) {
-        // Start typing your C/C++ solution below
-        // DO NOT write int main() function
+    vector<string> result;
+    Solution () {
+        result.push_back("1");
+    }
+    string countAndSay(int n) {
+        while (result.size() < n) {
+            string str = result.back();
+            stringstream next;
+            for (int i = 0; i < str.length(); i++) {
+                int count = 1;
+                while (str[i] == str[i + 1] && i < str.length()) {
+                    count++;
+                    i++;
+                }
+                next << count << str[i];
+            }
+            result.push_back(next.str());
+        }
 
+        return result[n - 1];
     }
 };
 
