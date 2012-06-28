@@ -13,9 +13,9 @@ Combination Sum II: Is ther a better way to construct the path?
 Combinations
 Container With Most Water: This is hard.
 Count and Say
-Decode Ways
+Decode Ways: DP
 Divide Two Integers
-Edit Distance
+Edit Distance: DP
 First Missing Positive
 Generate Parentheses
 Gray Code
