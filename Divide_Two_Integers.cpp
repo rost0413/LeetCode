@@ -2,7 +2,7 @@
 Author:     Weixian Zhou, ideazwx@gmail.com
 Date:       June 28, 2012
 Problem:    Divide two integers
-Difficulty:
+Difficulty: boring
 Source:     http://www.leetcode.com/onlinejudge
 Notes:
 Divide two integers without using multiplication, division and mod operator.
