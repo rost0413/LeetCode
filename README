@@ -14,15 +14,15 @@ Combinations
 Container With Most Water: This is hard.
 Count and Say
 Decode Ways: DP
-Divide Two Integers
+Divide Two Integers: boring
 Edit Distance: DP
-First Missing Positive
-Generate Parentheses
+First Missing Positive: easy
+Generate Parentheses: easy
 Gray Code: famous bit operation
-Implement strStr()
-Insert Interval
-Integer to Roman
-Jump Game
+Implement strStr(): easy
+Insert Interval: easy
+Integer to Roman: easy
+Jump Game: medium
 Jump Game II
 Largest Rectangle in Histogram
 Length of Last Word
