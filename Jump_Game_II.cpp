@@ -2,7 +2,7 @@
  Author:     Weixian Zhou, ideazwx@gmail.com
  Date:       Jun 29, 2012
  Problem:    Jump Game II
- Difficulty:
+ Difficulty: medium
  Source:     http://www.leetcode.com/onlinejudge
  Notes:
  Given an array of non-negative integers, you are initially positioned at the
@@ -47,7 +47,6 @@ public:
 					steps[j] = steps[i] + 1;
 				}
 				limit = i + A[i];
-
 			}
 		}
 
