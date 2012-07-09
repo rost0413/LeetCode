@@ -1,24 +1,24 @@
-Solution set for Leetcode online interview problems. (23/92)
+Solution set for Leetcode online interview problems. (40/92)
 http://www.leetcode.com/onlinejudge
 
-3 Sum
-3 Sum Closest
+3 Sum: medium
+3 Sum Closest: medium
 4 Sum: Is there a solution that the time complexity is better than O(n^2 * lgn)?
-Add Binary
-Add Two Numbers
-Anagrams
-Climbing Stairs
+Add Binary: medium
+Add Two Numbers: easy
+Anagrams: easy
+Climbing Stairs: medium
 Combination Sum: Is there a better way to construct the path?
 Combination Sum II: Is ther a better way to construct the path?
-Combinations
-Container With Most Water: This is hard.
-Count and Say
-Decode Ways: DP
-Divide Two Integers: boring
-Edit Distance: DP
+Combinations: easy
+Container With Most Water: hard
+Count and Say: easy
+Decode Ways: dp
+Divide Two Integers: easy
+Edit Distance: dp
 First Missing Positive: easy
 Generate Parentheses: easy
-Gray Code: famous bit operation
+Gray Code: bit operation
 Implement strStr(): easy
 Insert Interval: easy
 Integer to Roman: easy
@@ -28,21 +28,21 @@ Largest Rectangle in Histogram: hard
 Length of Last Word: easy
 Letter Combinations of a Phone Number: easy
 Longest Common Prefix: easy
-Longest Palindromic Substring: hard
+*Longest Palindromic Substring: hard
 Longest Substring Without Repeating Characters: easy
-Longest Valid Parentheses
-Maximal Rectangle
-Maximum Subarray
-Median of Two Sorted Arrays
-Merge Intervals
-Merge k Sorted Lists
-Merge Sorted Array
-Merge Two Sorted Lists
-Minimum Path Sum
-Minimum Window Substring
-Multiply Strings
-N-Queens
-N-Queens II
+Longest Valid Parentheses: medium
+Maximal Rectangle: hard
+Maximum Subarray: dp
+*Median of Two Sorted Arrays
+Merge Intervals: easy
+Merge k Sorted Lists: medium
+Merge Sorted Array: medium
+Merge Two Sorted Lists: easy
+Minimum Path Sum: easy
+Minimum Window Substring: hard
+Multiply Strings: easy
+N-Queens: easy
+N-Queens II: dfs
 Next Permutation
 Palindrome Number
 Partition List

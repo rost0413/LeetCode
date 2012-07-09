@@ -2,7 +2,7 @@
 Author:     Weixian Zhou, ideazwx@gmail.com
 Date:       June 27, 2012
 Problem:    Count and Say
-Difficulty:
+Difficulty: easy
 Source:     http://www.leetcode.com/onlinejudge
 Notes:
 The count-and-say sequence is the sequence of integers beginning as follows:

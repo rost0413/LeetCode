@@ -48,7 +48,7 @@ public:
 			maxlen = (que->size() > maxlen ? que->size() : maxlen);
 		}
 
-		return maxlen;
 		delete que;
+		return maxlen;
 	}
 };
