@@ -2,19 +2,20 @@
 #include <algorithm>
 #include <iostream>
 #include <string>
-#include "N-Queens.cpp"
+#include "Partition_List.cpp"
 using namespace std;
 
 int main() {
 	Solution s;
-	vector<vector<string> > result;
-	result = s.solveNQueens(2);
-
-	for (int i=0;i<result.size();i++){
-		for (int j=0;j<result[i].size();j++) {
-			cout << result[i][j] << endl;
-		}
-		cout << endl;
+	ListNode *head;
+	ListNode *result;
+	head = new ListNode(1);
+	head->next = new ListNode(2);
+	head->next->next = new ListNode(3);
+	result = s.partition(head, 0);
+	while (result != NULL) {
+		cout << result->val << endl;
+		result = result->next;
 	}
 
 	return 0;

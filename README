@@ -43,9 +43,9 @@ Minimum Window Substring: hard
 Multiply Strings: easy
 N-Queens: easy
 N-Queens II: dfs
-Next Permutation
-Palindrome Number
-Partition List
+Next Permutation: hard
+Palindrome Number: Is there any better solution?
+Partition List: medium linked list 
 Permutation Sequence
 Permutations
 Permutations II
