@@ -2,19 +2,33 @@
 #include <algorithm>
 #include <iostream>
 #include <string>
-#include "Partition_List.cpp"
+#include <cmath>
+#include "Rotate_List.cpp"
 using namespace std;
 
+ListNode *head, *tail;
+
+void insert(int x) {
+	if (!head) {
+		head = new ListNode(x);
+		tail = head;
+	} else {
+		tail->next = new ListNode(x);
+		tail = tail->next;
+	}
+}
 int main() {
 	Solution s;
-	ListNode *head;
 	ListNode *result;
-	head = new ListNode(1);
-	head->next = new ListNode(2);
-	head->next->next = new ListNode(3);
-	result = s.partition(head, 0);
-	while (result != NULL) {
-		cout << result->val << endl;
+	head = NULL;
+	tail = NULL;
+
+	for (int i = 1; i <= 2; i++) {
+		insert(i);
+	}
+	result = s.rotateRight(head, 13);
+	while (result) {
+		cout << result->val;
 		result = result->next;
 	}
 

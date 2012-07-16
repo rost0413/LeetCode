@@ -1,4 +1,4 @@
-Solution set for Leetcode online interview problems. (40/92)
+Solution set for Leetcode online interview problems. (60/92)
 http://www.leetcode.com/onlinejudge
 
 3 Sum: medium
@@ -11,6 +11,7 @@ Climbing Stairs: medium
 Combination Sum: Is there a better way to construct the path?
 Combination Sum II: Is ther a better way to construct the path?
 Combinations: easy
+
 Container With Most Water: hard
 Count and Say: easy
 Decode Ways: dp
@@ -21,6 +22,7 @@ Generate Parentheses: easy
 Gray Code: bit operation
 Implement strStr(): easy
 Insert Interval: easy
+
 Integer to Roman: easy
 Jump Game: medium
 Jump Game II: medium
@@ -28,12 +30,13 @@ Largest Rectangle in Histogram: hard
 Length of Last Word: easy
 Letter Combinations of a Phone Number: easy
 Longest Common Prefix: easy
-*Longest Palindromic Substring: hard
+***Longest Palindromic Substring: hard
 Longest Substring Without Repeating Characters: easy
 Longest Valid Parentheses: medium
+
 Maximal Rectangle: hard
 Maximum Subarray: dp
-*Median of Two Sorted Arrays
+***Median of Two Sorted Arrays
 Merge Intervals: easy
 Merge k Sorted Lists: medium
 Merge Sorted Array: medium
@@ -41,28 +44,32 @@ Merge Two Sorted Lists: easy
 Minimum Path Sum: easy
 Minimum Window Substring: hard
 Multiply Strings: easy
+
 N-Queens: easy
 N-Queens II: dfs
 Next Permutation: hard
 Palindrome Number: Is there any better solution?
 Partition List: medium linked list 
-Permutation Sequence
-Permutations
-Permutations II
-Plus One
-Pow(x, n)
-Regular Expression Matching
-Remove Duplicates from Sorted Array
-Remove Duplicates from Sorted Array II
-Remove Duplicates from Sorted List
-Remove Duplicates from Sorted List II
-Remove Element
-Remove Nth Node From End of List
-Reverse Integer
-Reverse Nodes in k-Group
-Roman to Integer
-Rotate Image
-Rotate List
+Permutation Sequence: medium number theory
+Permutations: easy
+***Permutations II: better solution than O(n! * lg(n!))?
+Plus One: easy
+Pow(x, n): medium how to write neat exponential steps
+
+Regular Expression Matching: hard, boundry and logic. Better solution?
+Remove Duplicates from Sorted Array: easy
+Remove Duplicates from Sorted Array II: easy
+Remove Duplicates from Sorted List: easy
+Remove Duplicates from Sorted List II: medium
+Remove Element: easy
+Remove Nth Node From End of List: medium
+Reverse Integer: easy
+Reverse Linked List II: medium
+Reverse Nodes in k-Group: medium
+
+Roman to Integer: easy
+Rotate Image: easy
+Rotate List: easy
 Scramble String
 Search a 2D Matrix
 Search for a Range
@@ -70,6 +77,7 @@ Search in Rotated Sorted Array
 Search in Rotated Sorted Array II
 Search Insert Position
 Set Matrix Zeroes
+
 Simplify Path
 Sort Colors
 Spiral Matrix
